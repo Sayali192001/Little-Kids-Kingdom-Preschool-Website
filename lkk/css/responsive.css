@@ -1,0 +1,341 @@
+/*Large Screen*/
+@media screen and (min-width: 1501px) {
+	.hero-area {
+		height: 1000px;
+	}
+	.enroll-area, .philosophy-area {
+		padding: 410px 0;
+	}
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+		
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.sun-image {
+/*		left: 145px;*/
+		transform: scale(.65);
+	}
+	.hero-area.hero-classes h2 {
+		padding-top: 300px;
+	}
+
+	.review-text p {
+		padding: 0 50px;
+	}
+
+	/*gallery*/
+	.hero-gallery .hero-content h2 {
+		padding-top: 320px;
+	}
+
+
+	/*contact*/
+	.hero-contact .hero-content h2 {
+		padding-top: 75px;
+		font-size: 70px;
+		margin-bottom: 50px;
+	}
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.sun-image {
+		display: none;
+	}
+	.feature-content img {
+        display: none;
+    }
+    .feature-image {
+    	text-align: center;
+    }
+    .ch-order .feature-image {
+        margin-bottom: 80px;
+    }
+    .feature-content.f-2 {
+		margin-bottom: 100px;
+	}
+	.single-class h5 {
+		font-size: 40px;
+		margin-bottom: 3px;
+	}
+	.single-class p {
+		font-weight: 400;
+		font-size: 22px;
+	}
+	.enroll-area, .philosophy-area {
+		height: 800px;
+	}
+	.philosophy-area {
+		padding-top: 60px;
+	}
+	.enroll-image,
+	.philosophy-image {
+		display: none;
+	}
+	.footer-top {
+		margin-top: 0;
+		padding: 30px 15px 50px;
+	}
+	.footer-content h3 {
+		padding: 0 0;
+		font-size: 32px;
+	}
+	.footer-bottom {
+		text-align: center !important;
+	}
+	.copyright-text {
+		margin-bottom: 30px;
+	}
+	.footer-bottom .text-right {
+		text-align: center !important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*about*/
+	.educators-image-wrap {
+		text-align: center;
+	}
+
+
+
+
+
+
+	/*classes*/
+	.hero-classes .hero-content h2 {
+		padding-top: 300px;
+	}
+	.classes-page .classes-area,
+	.classes-page .classes-area .text-right {
+		text-align: center !important;
+	}
+
+	/*contact*/
+	.hero-contact .hero-content h2 {
+		font-size: 70px;
+		margin-bottom: 50px;
+		padding-top: 75px;
+	}
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.mean-container a.meanmenu-reveal {
+		top: 18px;
+	}
+	.hero-area {
+		height: 600px;
+	}
+	.sun-image {
+		display: none;
+	}
+	.hero-content h2 {
+		font-size: 80px;
+	}
+	.hero-content h3 {
+		font-weight: 400;
+		font-size: 25px;
+	}
+	.area-title h2 {
+		font-size: 60px;
+	}
+	.area-title p {
+		font-size: 15px;
+	}
+	.content-title {
+		font-size: 50px;
+	}
+	.content p {
+		font-size: 15px;
+	}
+	.features-area {
+		padding-bottom: 120px;
+	}
+	.feature-content.f-2 {
+		margin-bottom: 100px;
+	}
+	.ch-order .feature-image {
+        margin-top: 80px;
+    }
+    .feature-content img {
+    	display: none;
+    }
+
+	.classes-area {
+		padding: 100px 0 100px;
+		background: #4B44F2;
+	}
+	.single-class {
+		margin: 20px 0;
+	}
+	.single-class h5 {
+		margin-bottom: 0;
+	}
+	.single-class p {
+		font-weight: 400;
+		font-size: 25px;
+	}
+	.review-area {
+		margin-top: 0;
+		padding-top: 120px; 
+	}
+	.review-area .area-title h2 {
+		font-size: 60px;
+	}
+	.single-review {
+	    position: static;
+	    padding: 30px 30px;
+	    border-radius: 15px;
+	    border-top-right-radius: 15px;
+	    border-bottom-left-radius: 15px;
+	    margin-top: 0;
+	    margin-left: 0;
+	}
+	.review-text p {
+		padding: 0 0;
+	}
+
+	.review-author img {
+		position: static;
+		margin: 0 auto;
+		margin-top: 30px;
+		border: 2px dashed #fff;
+		padding: 7px;
+	}
+	.review-carousel-thumbnail li {
+		margin: 0 5px;
+	}
+	.review-carousel-thumbnail li img {
+		padding: 3px;
+		border: 1px dashed #4B44F2;
+	}
+	.enroll-area, .philosophy-area {
+		height: 800px;
+	}
+	.enroll-area,
+	.philosophy-area {
+		background-color: #4B44F2;
+	}
+	.enroll-content h3, .philosophy-content h3 {
+		font-size: 60px;
+	}
+	.enroll-image,
+	.philosophy-image {
+		display: none;
+	}
+	.enroll-form input[type="submit"] {
+		position: static;
+		width: 100%;
+		display: block;
+		margin-top: 15px;
+		padding: 19px 28px;
+	}
+	.footer-top {
+		margin-top: 0;
+		padding: 100px 15px 50px;
+	}
+	.footer-content h3 {
+		padding: 0 0;
+		font-size: 32px;
+	}
+	.footer-bottom {
+		text-align: center !important;
+	}
+	.copyright-text {
+		margin-bottom: 30px;
+	}
+	.footer-bottom .text-right {
+		text-align: center !important;
+	}
+
+
+
+
+
+
+
+
+
+	/*about*/
+	.hero-about .hero-content h2 {
+		padding-top: 150px;
+	}
+	.educators-image-wrap {
+		text-align: center;
+	}
+	.philosophy-area {
+	    height: 900px;
+	    padding-top: 100px;
+	}
+
+
+	/*classes*/
+	.hero-classes .hero-content h2 {
+		padding-top: 150px;
+	}
+	.classes-page .classes-area {
+		background-color: #fff;
+		text-align: center;
+	}
+	.classes-page .classes-area .text-right {
+		text-align: center !important;
+	}
+
+
+
+	/*gallery*/
+	.hero-gallery .hero-content h2 {
+		padding-top: 170px;
+	}
+
+	/*contact*/
+	.hero-area.hero-contact {
+		height: auto;
+		background-color: #4B44F2;
+		padding-bottom: 120px;
+	}
+	.contact-form {
+		margin-bottom: 100px;
+	}
+	.contact-address .social li {
+		margin-left: 5px;
+	}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/*about	*/
+	.hero-about .hero-content h2 {
+		padding-top: 200px;
+	}
+
+	/*classes*/
+	.hero-classes .hero-content h2 {
+		padding-top: 230px;
+	}
+
+	/*gallery*/
+	.hero-gallery .hero-content h2 {
+	    padding-top: 220px;
+	}
+}
+
